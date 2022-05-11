@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <a onclick="signIn()"><span style="cursor: pointer;">ĐĂNG NHẬP</span></a>
+            <form action="" method="post">
+                <div class="body__signin--main">
+                    <div class="body__signin--left">
+                        <h2 class="body__signintitle--top">Đăng nhập</h2> <br>
+                        <input class="body__validate--input" type="email" name="email" placeholder="Điền địa chỉ Email của bạn"> <br>
+                        <input class="body__validate--input" type="password" name="password" placeholder="Mật khẩu"><br>
+                        <div class="body__forgotpwd"><a href="">Quên mật khẩu?</a></div><br>
+                        <button class="body__signin--button" type="submit">ĐĂNG NHẬP</button>
+                    </div>
+                    <div class="body__signin--right">
+                        <h2 class="body__signintitle--top">Khách hàng mới</h2> <i style="cursor: pointer;" onclick="signIn()"
+                            class="fa-solid fa-xmark"></i><br>
+                        <div class="login__frame--copy">
+                            <p>Chỉ một vài bước đơn giản đăng ký bạn sẽ <br> nhận được những quyền lợi đặc biệt sau từ <br> Highway Menswear:</p>
+                            <p>-Đặt hàng thuận tiện và nhanh chóng.</p>
+                            <p>-Tra cứu lịch sử mua hàng và điểm tích lũy.</p>
+                            <p>-Nhận các thông tin về sản phẩm và <br>
+                                khuyến mãi đặc biệt.
+                            </p>
+                            
+                            <a onclick="signUp()"><span class="body__signin--button" style="cursor: pointer;">ĐĂNG KÝ</span></a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form action="" method="post">
+            <div class="body__signup--main">
+                
+                    <div class="body__signup--left">
+                        <h2 class="body__signintitle--top">Đăng ký</h2>
+                        <p>Vui lòng điền đầy đủ các thông tin bên dưới để tạo tài khoản mới</p>
+                        <p>Những trường thông tin có dấu "*" là bắt buộc!</p><br>
+                        <input class="body__validate--input" type="text" name="name" placeholder="*Họ và tên"><br>
+                        <input class="body__validate--input" type="email" name="email" placeholder="*Điền địa chỉ Email của bạn"> <br>
+                        <input class="body__validate--input" type="password" name="password" placeholder="*Mật khẩu"><br>
+                    </div>
+                    <div class="body__signup--right">
+                        <h2 class="body__signintitle--top">Khách hàng mới</h2> <i style="cursor: pointer;" onclick="signUp()"
+                            class="fa-solid fa-xmark"></i><br>
+                        <input  style="margin-top: 69px;" class="body__validate--input" type="number" name="phone_number" placeholder="*Số điện thoại"><br>
+                        <input class="body__validate--input" type="date" name="dateOfBirth"><br>
+                        <input class="body__validate--input"type="text" name="address" placeholder="Địa chỉ">
+                        <button style="margin-left: 290px;"class="body__signin--button" type="submit">Đăng kí</button>
+                    </div>
+            </div>
+            
+        
+     </form>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+ </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+ </script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+ </script>
+ <script src="main.js"></script>
+</body>
+</html>
